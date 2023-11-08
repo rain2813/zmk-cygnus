@@ -111,10 +111,10 @@
 
         default_layer {
             bindings = <
-&kp Q                    &kp W                       &kp E                     &kp R             &kp T         &kp Y                   &kp U              &kp I        &kp O            &hm LG(LS(V)) P
-&hm LEFT_GUI A           &hm LEFT_ALT S              &hm LCTRL D               &hm LEFT_SHIFT F  &kp G         &kp H                   &hm RIGHT_SHIFT J  &hm RCTRL K  &hm RIGHT_ALT L  &hm RIGHT_GUI SEMI
-&kp Z                    &kp X                       &kp C                     &kp V             &kp B         &kp N                   &kp M              &kp COMMA    &kp PERIOD       &kp FSLH
-                &kp TAB                  &lt 1 BSPC               &lt 2 SPACE                    &ltq 2 SPACE  &ltq 3 KP_ENTER  &mo 4
+&kp Q                          &kp W                      &kp E                     &kp R             &kp T         &kp Y                   &kp U              &kp I                &kp O                    &hm LG(LS(V)) P
+&hm LEFT_GUI A                 &hm LEFT_ALT S             &hm LCTRL D               &hm LEFT_SHIFT F  &kp G         &kp H                   &hm RIGHT_SHIFT J  &hm RCTRL K          &hm RIGHT_ALT L          &hm RIGHT_GUI SEMI
+&kp Z                          &kp X                      &kp C                     &kp V             &kp B         &kp N                   &kp M              &as LESS_THAN COMMA  &as GREATER_THAN PERIOD  &as QUESTION SLASH
+                &kp BACKSPACE                  &lt 1 TAB               &lt 2 SPACE                    &ltq 2 SPACE  &ltq 3 KP_ENTER  &mo 4
             >;
         };
 
@@ -129,10 +129,10 @@
 
         raise_layer {
             bindings = <
-&kp N1              &kp N2                &kp NUMBER_3          &kp NUMBER_4  &kp N5   &kp N6           &kp N7       &kp N8        &kp NUMBER_9   &kp N0
-&kp ESCAPE          &kp CAPSLOCK          &trans                &trans        &kp AT   &kp END          &kp PAGE_UP  &kp UP_ARROW  &kp PAGE_DOWN  &kp PAGE_DOWN
-&kp DEL             &trans                &trans                &trans        &kp DOT  &trans           &kp LEFT     &kp DOWN      &kp RIGHT      &trans
-            &trans                &trans                &trans                &trans   &trans   &trans
+&as EXCLAMATION NUMBER_1          &as AT_SIGN N2          &as HASH N3          &as DOLLAR N4  &as PERCENT N5               &as CARET N6                           &as AMPERSAND N7  &as ASTERISK N8  &as LEFT_PARENTHESIS N9  &as RIGHT_PARENTHESIS N0
+&kp ESCAPE                        &kp CAPSLOCK            &kp HOME             &kp END        &as LEFT_BRACKET LEFT_BRACE  &as RIGHT_BRACKET RIGHT_BRACE          &kp PAGE_UP       &kp UP_ARROW     &kp PAGE_DOWN            &trans
+&kp DEL                           &trans                  &trans               &trans         &kp DOT                      &trans                                 &kp LEFT          &kp DOWN         &kp RIGHT                &trans
+                          &trans                  &trans               &trans                 &trans                       &trans                         &trans
             >;
         };
 
