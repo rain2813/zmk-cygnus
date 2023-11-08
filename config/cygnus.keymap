@@ -129,10 +129,10 @@
 
         raise_layer {
             bindings = <
-&as EXCLAMATION NUMBER_1          &as AT_SIGN N2          &as HASH N3          &as DOLLAR N4  &as PERCENT N5               &as CARET N6                           &as AMPERSAND N7  &as ASTERISK N8  &as LEFT_PARENTHESIS N9  &as RIGHT_PARENTHESIS N0
-&kp ESCAPE                        &kp CAPSLOCK            &kp HOME             &kp END        &as LEFT_BRACKET LEFT_BRACE  &as RIGHT_BRACKET RIGHT_BRACE          &kp PAGE_UP       &kp UP_ARROW     &kp PAGE_DOWN            &trans
-&kp DEL                           &trans                  &trans               &trans         &kp DOT                      &trans                                 &kp LEFT          &kp DOWN         &kp RIGHT                &trans
-                          &trans                  &trans               &trans                 &trans                       &trans                         &trans
+&as EXCLAMATION NUMBER_1          &as AT_SIGN N2          &as HASH N3          &as DOLLAR N4  &as PERCENT N5               &as CARET N6                            &as AMPERSAND N7  &as ASTERISK N8  &as LEFT_PARENTHESIS N9  &as RIGHT_PARENTHESIS N0
+&kp ESCAPE                        &kp CAPSLOCK            &kp HOME             &kp END        &as LEFT_BRACKET LEFT_BRACE  &as RIGHT_BRACKET RIGHT_BRACE           &kp PAGE_UP       &kp UP_ARROW     &kp PAGE_DOWN            &kp COLON
+&kp DEL                           &trans                  &trans               &trans         &as TILDE GRAVE              &as DOUBLE_QUOTES SINGLE_QUOTE          &kp LEFT          &kp DOWN         &kp RIGHT                &trans
+                          &trans                  &trans               &trans                 &trans                       &trans                          &trans
             >;
         };
 
