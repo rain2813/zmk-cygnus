@@ -143,7 +143,7 @@
             bindings = <
 &kp NUMBER_1          &kp NUMBER_2          &kp NUMBER_3          &kp NUMBER_4  &kp NUMBER_5      &kp NUMBER_6               &kp NUMBER_7    &kp NUMBER_8      &kp NUMBER_9  &kp NUMBER_0
 &kp LG(A)             &kp LG(S)             &kp LG(D)             &kp LG(F)     &kp LEFT_BRACKET  &kp RIGHT_BRACKET          &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI
-&kp LG(Z)             &kp LG(X)             &kp LG(C)             &kp LG(F)     &kp LEFT_BRACE    &kp RIGHT_BRACE            &kp F1          &kp F2            &kp F3        &kp F4
+&kp LG(Z)             &kp LG(X)             &kp LG(C)             &kp LG(V)     &kp LEFT_BRACE    &kp RIGHT_BRACE            &kp F1          &kp F2            &kp F3        &kp F4
               &trans                &trans                &trans                &trans            &trans             &trans
             >;
         };
