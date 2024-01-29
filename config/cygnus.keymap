@@ -150,10 +150,10 @@
 
         layer_4 {
             bindings = <
-&trans          U_WH_D   U_MS_U  U_WH_U  &trans  &trans          &trans  &trans  &trans  &trans
-&trans          U_MS_L   U_MS_D  U_MS_R  &trans  &trans          &trans  &trans  &trans  &trans
+&trans          &msc SCRL_UP   &mmv MOVE_UP  &msc SCRL_DOWN  &trans  &trans          &trans  &trans  &trans  &trans
+&trans          &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans          &trans  &trans  &trans  &trans
 &trans          &trans          &trans          &trans  &trans  &trans          &trans  &trans  &trans  &trans
-        &trans          U_BTN1  U_BTN2         &trans  &trans  &trans
+        &trans          &mkp LCLK  &mkp RCLK         &trans  &trans  &trans
             >;
         };
 
