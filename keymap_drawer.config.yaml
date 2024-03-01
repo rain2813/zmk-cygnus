@@ -460,6 +460,14 @@ parse_config:
       tap: $$mdi:mouse-right-click-outline$$
     "&mkp MCLK":
       tap: $$mdi:mouse-scroll-wheel$$
+    "&mmv MOVE_UP":
+      tap: $$mdi:mouse-move-up$$
+    "&mmv MOVE_DOWN":
+      tap: $$mdi:mouse-move-down$$
+    "&mmv MOVE_LEFT":
+      tap: $$mdi:chevron-double-left$$
+    "&mmv MOVE_RIGHT":
+      tap: $$mdi:chevron-double-right$$
     # Modifiers
     "&caps_word": $$mdi:alpha-w-box$$
     "&kt RSHIFT":
