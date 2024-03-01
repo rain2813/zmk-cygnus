@@ -1,4 +1,4 @@
-# zmk-config
+# zmk-config-cygnus
 
 
 <img src="keymap-drawer/cygnus.svg" >
