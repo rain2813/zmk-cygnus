@@ -17,7 +17,6 @@ jobs:
       amend_commit: false
       install_branch: "main"
       keymap_patterns: "config/*.keymap"
-      config_path: "keymap-drawer/config.yaml"
       json_path: "boards/shields/cygnus"
       output_folder: "keymap-drawer"
       destination: "both"
