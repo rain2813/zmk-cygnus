@@ -17,8 +17,8 @@ jobs:
       amend_commit: false
       install_branch: "main"
       keymap_patterns: "config/*.keymap"
-      json_path: "boards/shields/cygnus"
+      json_path: "config"
       output_folder: "keymap-drawer"
       destination: "both"
       parse_args: ""  # map of extra args to pass to `keymap parse`, e.g. "corne:'-l Def Lwr Rse' cradio:''"
-      draw_args: "-o '{split: true, rows: 3,columns: 5,thumbs: 3}"   # map of extra args to pass to `keymap draw`, e.g. "corne:'-k corne_rotated' cradio:'-k paroxysm'"
+      draw_args: ""   # map of extra args to pass to `keymap draw`, e.g. "corne:'-k corne_rotated' cradio:'-k paroxysm'"
