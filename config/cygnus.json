@@ -2,7 +2,7 @@
   "id": "cygnus",
   "name": "cygnus",
   "layouts": {
-    "default_layout": {
+    "LAYOUT": {
       "name": "default_layout",
       "layout": [
         { "row": 0, "col":  0, "x":  0, "y": 0.36 },
